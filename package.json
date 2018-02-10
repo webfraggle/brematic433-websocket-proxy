@@ -1,0 +1,19 @@
+{
+  "name": "brematic433-websocket-proxy",
+  "version": "0.0.1",
+  "description": "A ws proxy for Brennenstuhl Brematic 433 gateway and RCS1000N sockets",
+  "main": "server.js",
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "ws": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js"
+  },
+  "keywords": [
+    "websocket"
+  ],
+  "author": "Christoph Ketzler",
+  "license": "MIT"
+}
